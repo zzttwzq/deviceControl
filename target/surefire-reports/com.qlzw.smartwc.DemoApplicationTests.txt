@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.qlzw.smartwc.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.165 s <<< FAILURE! - in com.qlzw.smartwc.DemoApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'admin_userController': Unsatisfied dependency expressed through method 'getAdminList' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.qlzw.smartwc.utils.Pager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.qlzw.smartwc.utils.Pager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
